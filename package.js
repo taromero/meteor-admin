@@ -1,8 +1,8 @@
 Package.describe({
-  name: "yogiben:admin",
+  name: "canotto90:admin-1.1.0-patch",
   summary: "A complete admin dashboard solution",
-  version: "1.0.9",
-  git: "https://github.com/yogiben/meteor-admin"
+  version: "0.4.0",
+  git: "https://github.com/taromero/meteor-admin"
 });
 
 Package.on_use(function(api){
