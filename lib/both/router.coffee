@@ -76,7 +76,7 @@ Router.route "adminDashboardView",
 		@render()
 	onAfterAction: ->
 		Session.set 'admin_title', @params.collection
-		Session.set 'admin_subtitle', 'View'
+		Session.set 'admin_subtitle', ''
 		Session.set 'admin_collection_name', @params.collection
 
 Router.route "adminDashboardNew",

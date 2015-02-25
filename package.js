@@ -1,7 +1,7 @@
 Package.describe({
   name: "canotto90:admin-1.1.0-patch",
   summary: "A complete admin dashboard solution",
-  version: "0.4.0",
+  version: "0.4.1",
   git: "https://github.com/taromero/meteor-admin"
 });
 
