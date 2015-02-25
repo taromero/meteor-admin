@@ -64,9 +64,6 @@ adminCreateTables = (collections) ->
 			title: column.label
 			createdCell: createdCell
 
-		if columns.length == 0
-			columns = defaultColumns
-
 		AdminTables[name] = new Tabular.Table
 			name: name
 			collection: adminCollectionObject(name)
